@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Sudoku
+Comment=Sudoku game
+GenericName=Sudoku
+TryExec=com.github.alexkdeveloper.sudoku
+Exec=com.github.alexkdeveloper.sudoku
+Icon=com.github.alexkdeveloper.sudoku
+Terminal=false
+Categories=Game;
+Keywords=game;play;sudoku;
