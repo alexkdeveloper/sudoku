@@ -14,6 +14,7 @@ pkgdatadir = join_paths([ get_option('prefix'),
                           meson.project_name() ])
 
 conf.set_quoted('PKGDATADIR', pkgdatadir)
+conf.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
 
 # Other configs
 conf.set_quoted('GETTEXT_PACKAGE', meson.project_name())
@@ -27,6 +28,9 @@ c_args = [
   '-include', 'config.h',
   '-w'
 ]
+
+# Arguments for Vala
+vala_args = ['--target-glib=2.50', meson.source_root() + '/src/config.vapi']
 
 executable(
     meson.project_name(),
@@ -43,7 +47,7 @@ executable(
     'src/logic/Difficulty.vala',
     'src/logic/SudokuBoard.vala',
     'src/logic/SudokuSettings.vala',
-    c_args: c_args,
+    c_args: c_args, vala_args: vala_args, 
     dependencies: [
         dependency('glib-2.0'),
         dependency('gio-2.0'),
@@ -56,5 +60,6 @@ executable(
 )
 
 subdir('data')
+subdir('po')
 
 meson.add_install_script('meson/post_install.py')
