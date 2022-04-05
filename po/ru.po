@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-04-05 11:49+0800\n"
+"PO-Revision-Date: 2022-04-05 11:59+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: data\n"
+
+#: src/Board.vala:272
+msgid "Wrong number"
+msgstr "Неверное число"
+
+#: src/HeaderBar.vala:27
+msgid "Back"
+msgstr "Назад"
+
+#: src/WinPage.vala:13
+msgid "GAME OVER!"
+msgstr "ИГРА ОКОНЧЕНА!"
+
+#: src/WinPage.vala:19
+msgid "Back to menu"
+msgstr "Назад в меню"
+
+#: src/logic/Difficulty.vala:27
+msgid "Easy"
+msgstr "Легкий"
+
+#: src/logic/Difficulty.vala:29
+msgid "Medium"
+msgstr "Средний"
+
+#: src/logic/Difficulty.vala:31
+msgid "Hard"
+msgstr "Тяжелый"
+
+#: src/logic/Difficulty.vala:33
+msgid "Master"
+msgstr "Мастер"
+
+#: src/views/WelcomeView.vala:9
+msgid "New game"
+msgstr "Новая игра"
+
+#: src/views/WelcomeView.vala:9
+msgid "Choose difficulty and start a new puzzle"
+msgstr "Выберите сложность и начните новую головоломку"
+
+#: src/views/WelcomeView.vala:15
+msgid "Resume game"
+msgstr "Продолжить игру"
+
+#: src/views/WelcomeView.vala:15
+msgid "Continue your game"
+msgstr "Продолжить свою игру"
