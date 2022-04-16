@@ -28,6 +28,13 @@
     <url type="donation">https://www.blockchain.com/btc/address/bc1ql3ga4w9jtmxfe3pt8vfzydfd3zfpzks8hu5qfu</url>
     <content_rating type="oars-1.1"/>
   <releases>
+       <release version="1.0.2" date="2022-04-16">
+           <description>
+               <ul>
+                  <li>The app icon has been changed</li>
+               </ul>
+           </description>
+       </release>
        <release version="1.0.1" date="2022-04-05">
            <description>
                <ul>
