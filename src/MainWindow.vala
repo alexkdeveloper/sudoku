@@ -27,7 +27,6 @@ public class MainWindow : Gtk.Window {
             } catch (Error e) {
                  error (e.message);
             }
-        get_style_context ().add_class ("rounded");
         this.delete_event.connect (on_window_closing);
         stack_manager.load_views (this);
         add_shortcuts();

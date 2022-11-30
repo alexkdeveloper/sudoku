@@ -9,7 +9,6 @@ public class HeaderBar : Gtk.HeaderBar {
 	    set_title ("Sudoku");
 		generate_return_button ();
 		pack_start (return_button);
-		get_style_context ().add_class ("flat");
 		this.show_close_button = true;
 	}
 

@@ -5,7 +5,6 @@ public class WinPage : Gtk.AspectFrame {
 	public signal void return_to_welcome ();
 
 	public WinPage () {
-		set_shadow_type (Gtk.ShadowType.IN);
 		var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
 		box.homogeneous = false;
 		this.add (box);
