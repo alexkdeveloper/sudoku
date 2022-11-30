@@ -53,8 +53,7 @@ executable(
         dependency('gio-2.0'),
         dependency('gio-unix-2.0'),
         dependency('gobject-2.0'),
-        dependency('gtk+-3.0'),
-        dependency('granite')
+        dependency('gtk+-3.0')
     ],
     install : true
 )
@@ -62,4 +61,9 @@ executable(
 subdir('data')
 subdir('po')
 
-meson.add_install_script('meson/post_install.py')
+gnome.post_install(
+  glib_compile_schemas: false,
+  gtk_update_icon_cache: true,
+  update_desktop_database: true
+)
+
