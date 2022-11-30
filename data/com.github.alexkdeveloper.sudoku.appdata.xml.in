@@ -19,7 +19,13 @@
     </provides>
   <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/alexkdeveloper/sudoku/main/data/screenshot.png</image>
+            <image>https://raw.githubusercontent.com/alexkdeveloper/sudoku/main/data/s1.png</image>
+        </screenshot>
+      <screenshot type="default">
+            <image>https://raw.githubusercontent.com/alexkdeveloper/sudoku/main/data/s2.png</image>
+        </screenshot>
+      <screenshot type="default">
+            <image>https://raw.githubusercontent.com/alexkdeveloper/sudoku/main/data/s3.png</image>
         </screenshot>
     </screenshots>
     <url type="homepage">https://github.com/alexkdeveloper/sudoku</url>
@@ -27,6 +33,13 @@
     <url type="help">https://github.com/alexkdeveloper/sudoku/issues</url>
     <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.0.5" date="2022-11-30">
+         <description>
+            <ul>
+              <li>The start page and the difficulty selection page have been updated</li>
+            </ul>
+         </description>
+       </release>
       <release version="1.0.4" date="2022-09-27">
          <description>
             <ul>
