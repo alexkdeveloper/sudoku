@@ -40,7 +40,7 @@ public class WelcomeView : Gtk.ScrolledWindow {
 
         var label = new Gtk.Label ("Sudoku");
         Pango.AttrList attrs = new Pango.AttrList (); 
-        attrs.insert (Pango.attr_scale_new (Pango.Scale.X_LARGE)); 
+        attrs.insert (Pango.attr_scale_new (Pango.Scale.XX_LARGE)); 
         label.attributes = attrs;
 
         var welcome_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12);
