@@ -33,7 +33,14 @@
     <url type="help">https://github.com/alexkdeveloper/sudoku/issues</url>
     <content_rating type="oars-1.1"/>
   <releases>
-    <release version="1.0.5" date="2022-11-30">
+    <release version="1.0.6" date="2023-03-22">
+         <description>
+            <ul>
+              <li>Updated to GNOME Platform 44</li>
+            </ul>
+         </description>
+       </release>
+      <release version="1.0.5" date="2022-11-30">
          <description>
             <ul>
               <li>The start page and the difficulty selection page have been updated</li>
